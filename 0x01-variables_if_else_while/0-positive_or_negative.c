@@ -3,16 +3,13 @@
 #include <time.h>
 
 /**
- * main - positive or negative
+ * main - positive or negative .c
  *
  * Return: Always 0 (Success)
  */
-/* more headers goes there */
 
-/* betty style doc for function main goes there */
 int main(void)
 {
-
 int n;
 
 srand(time(0));
