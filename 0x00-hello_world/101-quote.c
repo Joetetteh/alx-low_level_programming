@@ -1,13 +1,13 @@
 #include <unistd.h>
 
 /**
- * main - c program without the use of printf or puts
+ * main - c program wihout the use of print f or puts functions
  *
  * Return: 1 (Success)
  */
 
 int main(void)
 {
-	write(2, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n");
+	writ(2, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n");
 	return (1);
 }
