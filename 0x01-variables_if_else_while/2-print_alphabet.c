@@ -3,19 +3,14 @@
 /**
  * main - print_alphabet.c
  *
- * Return: Always 0 (Success)
+ * Return: Always (Success)
  */
 
 int main(void)
 {
-	char A;
-
-	A = 'a';
-
-	for (A = 'a'; A <= 'z'; A++)
-	{
-		putchar(A);
-		putchar("\n");
-		return (0);
-	}
+char Alph;
+for (Alph = 'a'; Alph <= 'z'; Alph++)
+putchar(Alph);
+putchar('\n');
+return (0);
 }
