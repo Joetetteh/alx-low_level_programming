@@ -1,17 +1,21 @@
 #include "main.h"
 
 /**
- * c - function to to display lowercase 
- * _islower - function to check lowercase letters
+ * _isalpha - function to check Eng alphabets
  *
- * Return: lways (Success)
+ * @c: function to to display lowercas
+ *
+ * Return: Always (Success)
  */
 
-int _islower(int c)
+int _isalpha(int c)
 {
-
-if (c >= 97 && c <= 122)
+if ((c >= 97 && c <= 122) || (c >= 65 && c <= 90))
+{
 return (1);
+}
 else
+{
 return (0);
+}
 }
