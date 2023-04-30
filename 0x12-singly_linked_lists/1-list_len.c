@@ -2,7 +2,7 @@
 #include "lists.h"
 
 /**
- * list_len - fubction to returns the number of elements in a linked list
+ * list_len - function to returns the number of elements in a linked list
  * @h: pointer to the list_t list
  *
  * Return: returns number of elements in h
@@ -17,5 +17,5 @@ while (h)
 counter++;
 h = h->next;
 }
-return (n);
+return (counter);
 }
